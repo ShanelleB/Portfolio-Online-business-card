@@ -1,0 +1,85 @@
+/*changing image size since way too big*/
+img{
+  /*cant figure out how to center img*/
+  width:100%;
+}
+
+body {
+  /*body looks cute with light pink... no margins since i want to fit full page*/
+  margin: auto;
+  background-color: #FCF7F8;
+}
+
+h1, h2{
+  /*make title large but also want h2/sections to be same color and style*/
+  font-family: 'Shadows Into Light', cursive;
+  color: #BB8588;
+}
+
+
+h2{
+  /*change section font sizes*/
+  font-size: 30px;
+  text-align: left;
+}
+
+main > div > article > p{
+  /*color and decorate my articles!*/
+  color: #603A40;
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header > div > h1 {
+  /*center and size text*/
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+}
+
+
+header > div > nav {
+  /*nav styling*/
+  margin: 10px 10px;
+  font-size: 16px;
+  text-align: center;
+  word-spacing:25px;
+  text-decoration:;
+  font-family: 'Montserrat', sans-serif;
+  color: #668284;
+}
+
+
+header > div > nav a:hover {
+  /*make my nav hover pink because why not*/
+  color: #BB8588;
+}
+
+nav,
+div {
+  width: 300px;
+  margin: auto;
+}
+
+p, ol {
+  color: #440D0F;
+  text-align: left;
+  margin: auto;
+}
+
+main > div {
+  border: 3px solid #440D0F;
+  padding: 15px 150px;
+  background-color: #603A40;
+}
+
+footer > div > p {
+  color: #668284;
+  font-size: 16px;
+  padding: 20px;
+}
+
+a:link{color: #BB8588}
+a:hover{color: #FCF7F8}
+a:active{color: #191716}
+a:visited{color: #440D0F}

@@ -10,12 +10,23 @@ body {
   background-color: #FCF7F8;
 }
 
+main > hr{
+  /*want there to be seperation in my sections but i dont want a full line*/
+  width: 0px;
+}
+
+.container {
+  /*create container for my sections*/
+  border: 3px solid #440D0F;
+  padding: 15px 150px;
+  background-color: #603A40;
+}
+
 h1, h2{
   /*make title large but also want h2/sections to be same color and style*/
   font-family: 'Shadows Into Light', cursive;
   color: #BB8588;
 }
-
 
 h2{
   /*change section font sizes*/
@@ -25,9 +36,10 @@ h2{
 
 main > div > article > p{
   /*color and decorate my articles!*/
-  color: #603A40;
+  color: #440D0F;
   font-size: 16px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
 }
 
 header > div > h1 {
@@ -44,11 +56,9 @@ header > div > nav {
   font-size: 16px;
   text-align: center;
   word-spacing:25px;
-  text-decoration:;
   font-family: 'Montserrat', sans-serif;
   color: #668284;
 }
-
 
 header > div > nav a:hover {
   /*make my nav hover pink because why not*/
@@ -61,24 +71,20 @@ div {
   margin: auto;
 }
 
-p, ol {
+ol {
+  /*making sure my list matches*/
   color: #440D0F;
   text-align: left;
   margin: auto;
 }
 
-main > div {
-  border: 3px solid #440D0F;
-  padding: 15px 150px;
-  background-color: #603A40;
-}
-
 footer > div > p {
+  /*want my footer seperate but visible*/
   color: #668284;
   font-size: 16px;
   padding: 20px;
 }
-
+/*designing my links*/
 a:link{color: #BB8588}
 a:hover{color: #FCF7F8}
 a:active{color: #191716}
